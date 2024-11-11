@@ -1,0 +1,70 @@
+<DOCTYPE html>
+    <html>
+    <head>
+    <title>SignIn-PrimeFitness</title>
+    <link rel="stylesheet" type="text/css" href="signin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+    rel="stylesheet">
+    <link rel="icon" href=titlelogo.jpg />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href=titlelogo.png>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                    
+                <a href="EXP2.HTML"><img src="orange logo.png" alt="Gym Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="EXP2.HTML">Home</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li class="dropdown">
+                        <a href="details.html">Pre Planed Workout</a>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sign-in">
+                <a href="signin.html">Sign In</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </header>
+        
+    <div class="main"   data-aos="zoom-in">
+    <input type="checkbox" id="chk" aria-hidden="true">
+    <div class="signup" >
+    <form>
+    <label for="chk" aria-hidden="true">Sign In</label>
+    <input type="text" name="txt" placeholder="User name" required="">
+    <input type="email" name="email" placeholder="Email" required="">
+    <input type="Password" name="pswd" placeholder="Password" required="">
+    <button>Sign up</button>
+    </form>
+    </div>
+    <div class="login">
+    <form>
+    <label for="chk" aria-hidden="true"> Login </label>
+    <input type="email" name="email" placeholder="Email" required="">
+    <input type="Password" name="pswd" placeholder="Password" required="">
+    <button>Login</button>
+    </form>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+
+      });
+    </script>
+    <script href="signin.js"></script>
+    </body>
+    </html>

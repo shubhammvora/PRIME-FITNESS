@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="details.css">
+    <link rel="icon" href="titlelogo.png" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+            <a href="EXP2.HTML"><img src="orange logo.png" alt="Gym Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="EXP2.HTML">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sign-in">
+            <a href="signin.html">Sign In</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <!---  <div class="bx bx-menu" id="menu-icon"></div>-->
+        </div>
+    </header>
+<div class="container">
+    <h1>User Details</h1>
+    <form id="userForm">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <label for="heightFeet">Height (ft):</label>
+        <input type="number" id="heightFeet" name="heightFeet">
+        <br>
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight">
+        <br>
+        <label for="focusArea">Focus Area:</label>
+        <select id="focusArea" name="focusArea">
+            <option value="CHEST">CHEST</option>
+            <option value="Back">Back</option>
+            <option value="Bicep">Bicep</option>
+            <option value="Tricep">Tricep</option>
+            <option value="Shoulders">Shoulders</option>
+            <option value="fullBody">Full Body</option>
+        </select>
+        <br>
+        <label for="exerciseCategory">Exercise Category:</label>
+        <select id="exerciseCategory" name="exerciseCategory">
+            <option value="cardio">Cardio</option>
+            <option value="strength">Strength</option>
+            <option value="flexibility">Flexibility</option>
+            <option value="balance">Balance</option>
+        </select>
+        <br>
+        <label for="targetWeight">Target Weight (kg):</label>
+        <input type="number" id="targetWeight" name="targetWeight">
+        <br>
+        <button type="button" id="submitBtn">Submit</button>
+    </form>
+</div>
+
+<!-- Pop-up Modal for Workout and Diet Selection -->
+<div id="optionModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Select Your Options</h2>
+        
+        <div>
+           <a href="trial.html" ><button class="option-button" id="Workout">workout</button></a>
+           <a href="diet.html" ><button class="option-button" id="Diet"> Diet</button></a>
+        </div>
+        
+
+</div>
+
+<script src="details.js"></script>
+
+</body>
+</html>
